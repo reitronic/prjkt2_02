@@ -1,0 +1,150 @@
+/* contentText font-family: 'Carrois Gothic SC', sans-serif; */
+/* displayText font-family: 'plainblacknormal';*/
+
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC&display=swap');
+
+@font-face{
+    font-family: 'plainblacknormal';
+    src: url('Plain_Black-webfont.eot');
+    src: url('Plain_Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Plain_Black-webfont.woff') format('woff'),
+         url('Plain_Black-webfont.ttf') format('truetype'),
+         url('Plain_Black-webfont.svg#plainblacknormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    color: #fff;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+html{
+    font-size: 16px;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    text-justify: left;
+    height: 1500px;
+}
+
+#home .container-fluid{
+    height: 1000px;
+    background-image: url('../imgs/mainBackground.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    z-index: 0;
+}
+
+#header img{
+    width: 200px;
+    position: fixed;
+    top: 80px;
+    left: 80px;
+    z-index: 50;
+    opacity: 0.7;
+}
+
+#header h1{
+    font-family: 'plainblacknormal';
+    font-size: 5rem;
+    margin: 10px;
+    padding-top: 100px;
+    z-index: 3;
+    letter-spacing: 1.25rem;
+}
+
+h2{
+    font-size: 10rem;
+    opacity: 0.5;
+}
+
+#s1{
+    height: 50px;
+}
+
+#about{
+    height: 200px;
+}
+
+#about.sticky{
+    position: sticky;
+    top: 0;
+}
+
+#about p{
+    max-width: 600px;
+}
+
+/* artists */
+
+#artists{
+    position: absolute;
+    top: 830px;
+}
+
+#art1.sticky-top{
+    position:sticky;
+    top:0;
+}
+
+#art1{
+    background-color: #000;
+    height: 1000px;
+}
+
+#aDis a{
+    width: 100%;
+}
+
+#aDis a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* artist game */
+#ask p{
+    font-size: 2rem;
+}
+
+#askBtn{
+    color: #fff;
+    background-color: red;
+    font-size: 3rem;
+}
+
+#askBtn:hover{
+    color: red;
+    background-color: #000;
+}
+
+.bookNow{
+    color: #000;
+    background-color: #fff;
+}
+
+#resultDisplay .container{
+    height: 1000px;
+    width: 100%;
+}
+
+#result{
+    height: 500px;
+    width: 500px;
+    background-color: none;
+}
